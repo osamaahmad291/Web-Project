@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ummet Event - Home</title>
+	<link rel="icon" href="img/Fevicon.png" type="image/png">
+
+  <link href="{{ url_for('static', filename='vendors/bootstrap/bootstrap.min.css') }}" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='vendors/fontawesome/css/all.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='vendors/themify-icons/themify-icons.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='vendors/linericon/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='vendors/owl-carousel/owl.theme.default.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='vendors/owl-carousel/owl.carousel.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/magnific-popup_2.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='vendors/flat-icon/font/flaticon.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style_2.css') }}">
+</head>
+<body>
+
+  <!--================ Header Menu Area start =================-->
+  <header class="header_area">
+    <div class="main_menu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container box_1620">
+          <li><a id="add-new-provider" href="javascript:;" style="text-transform: uppercase;font-family: Oswald,sans-serif; font-size: 15px; font-weight: 500; color: #3b1d82;">Add New Provier</a></li>
+          <!--<a class="navbar-brand logo_h" href="index.html"><img src="{{ url_for('static', filename='new_img/logo.png') }}" alt=""></a> -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+            <ul class="nav navbar-nav menu_nav justify-content-end">
+              <li class="nav-item active"><a class="nav-link" href="javascript:;"></a></li>
+            </ul>
+
+            <ul class="nav-right text-center text-lg-right py-4 py-lg-0">
+              <li><a id="update_feeds" href="javascript:;">Update Feeds</a></li>
+              <li><a id="delete_old_feeds" href="javascript:;">Delete old Feeds</a></li>
+            </ul>
+          </div> 
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!--================Header Menu Area =================-->
+
+  <!--================ Schedule section Start =================-->
+  <section class="section-margin mb-5 pb-5">
+    <div class="container">
+      <div class="section-intro text-center pb-98px">
+        <h2 class="primary-text">News Feed</h2>
+        <img src="{{ url_for('static', filename='new_img/home/section-style.png') }}" alt="">
+      </div>
+
+      <div class="row">
+        <div class="col-xl-10 offset-xl-1">
+          <div class="scheduleTab">
+            <ul class="nav nav-tabs news-providers-tabs"></ul>
+          
+            <!-- Tab panes -->
+            <div class="tab-content news-details-content"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--================ Schedule section End =================-->
+
+  <!--================ Blog section Start =================-->
+  <section class="section-margin">
+    <div class="container">
+      <div class="section-intro text-center pb-98px">
+        <h2 class="primary-text">News Provider</h2>
+        <img src="{{ url_for('static', filename='new_img/home/section-style.png') }}" alt="">
+      </div>
+
+      <div class="owl-theme owl-carousel blogCarousel pb-xl-1 providers-details">
+      </div>
+    </div>
+  </section>
+
+
+   <!-- Modal -->
+    <div class="modal fade" id="addNewProvider" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="addModalLabel">Add Web Provider</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form method="post" role="form" class="contactForm" id="add-provider-form">
+              <div class="form-group">
+                <input type="text" class="form-control" name="name" id="add-provider-title" placeholder="Name" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="link" id="add-provider-link" placeholder="Link" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validation"></div>
+              </div>
+              <input type="hidden" name="Date Added" id="add-provider-date-added"  />
+              <input type="hidden" name="Date Updated" id="add-provider-date-updated"  />
+              <input type="hidden" name="Status" id="add-provider-status" value="1"  />
+
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary save-new-provider">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- Modal -->
+    <div class="modal fade" id="editProvider" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Edit Web Provider</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form method="post" role="form" class="contactForm" id="edit-provider-form">
+              <div class="form-group">
+                <input type="text" class="form-control" name="name" id="edit-provider-title" placeholder="Name" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="link" id="edit-provider-link" placeholder="Link" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validation"></div>
+              </div>
+              <input type="hidden" name="Date Added" id="edit-provider-date-added"  />
+              <input type="hidden" name="Status" id="edit-provider-status"  />
+
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary save-edit-provider">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- Modal -->
+    <div class="modal fade" id="editFeed" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="editFeedlabel">Edit Web Provider</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form method="post" role="form" class="contactForm" id="edit-news-form">
+              <div class="form-group">
+                <input type="text" class="form-control" name="name" id="edit-news-title" placeholder="Name" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="link" id="edit-news-link" placeholder="Link" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validation"></div>
+              </div>
+              <input type="hidden" name="Data Added" id="edit-news-date-added"  />
+              <input type="hidden" name="pubDate" id="edit-news-pub-date"  />
+              <input type="hidden" name="status" id="edit-news-status"  />
+
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary save-edit-news">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!--================ Blog section End =================-->
+
+
+  <!-- ================ start footer Area ================= -->
+  <footer class="footer-area">
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row align-items-center">
+          <p class="col-lg-8 col-sm-12 footer-text m-0 text-center text-lg-left">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ================ End footer Area ================= -->
+
+
+  <script src="{{ url_for('static', filename='vendors/jquery/jquery-3.2.1.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendors/bootstrap/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendors/owl-carousel/owl.carousel.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendors/Magnific-Popup/jquery.magnific-popup.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='new_js/jquery.ajaxchimp.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='new_js/mail-script.js') }}"></script>
+  <script src="{{ url_for('static', filename='new_js/countdown.js') }}"></script>
+  <script src="{{ url_for('static', filename='new_js/jquery.magnific-popup.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='new_js/main.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+
+</body>
+</html>

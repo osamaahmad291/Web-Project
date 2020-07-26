@@ -1,0 +1,31 @@
+
+version: '2'
+
+services:
+    web:
+        build: ./app
+        ports:
+            - "8070:5000"
+        command: python -u runserver.py
+        depends_on:
+            - api
+            - mongo
+    api:
+        build: ./restful-api
+        ports:
+            - "8100:5000"
+        command: python -u rest_api.py
+        depends_on:
+            - mongo
+
+    mongo:
+        image: mongo:3.4.0
+        ports:
+            - "27017:27017"
+
+    mongo-seed:
+        build: ./mongo-seed
+        links:
+            - mongo
+        depends_on:
+            - mongo

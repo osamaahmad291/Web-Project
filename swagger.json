@@ -1,0 +1,357 @@
+{
+"info": {
+"version": "0.1.0",
+"description": "This API handles the CRUD operations",
+"title": "Project API"
+},
+"paths": {
+"/News/": {
+"post": {
+"responses": {
+"200": {
+"description": "Success"
+}
+},
+"parameters": [
+{
+"required": true,
+"type": "string",
+"description": "Name",
+"name": "name",
+"in": "formData"
+},
+{
+"required": true,
+"type": "string",
+"description": "Description",
+"name": "description",
+"in": "formData"
+},
+{
+"required": true,
+"type": "number",
+"description": "Price",
+"name": "link",
+"in": "formData"
+},
+{
+"required": true,
+"type": "string",
+"description": "Publish Added",
+"name": "Pub Added",
+"in": "formData"
+},
+{
+"required": true,
+"type": "string",
+"description": "Date Added",
+"name": "Date Added",
+"in": "formData"
+},
+{
+"required": true,
+"type": "string",
+"description": "Date Updated",
+"name": "Date Updated",
+"in": "formData"
+}
+],
+"tags": [
+"News"
+],
+"summary": "Create a News Feed",
+"consumes": [
+"application/x-www-form-urlencoded",
+"multipart/form-data"
+],
+"operationId": "post_news_list"
+},
+"get": {
+"operationId": "get_news_list",
+"responses": {
+"200": {
+"description": "Success"
+}
+},
+"tags": [
+"News"
+],
+"summary": "List all News"
+}
+},
+"/News/{id}": {
+"put": {
+"responses": {
+"200": {
+"description": "Success"
+}
+},
+"parameters": [
+{
+"required": true,
+"type": "string",
+"description": "Name",
+"name": "name",
+"in": "formData"
+},
+{
+"required": true,
+"type": "string",
+"description": "Description",
+"name": "description",
+"in": "formData"
+},
+{
+"required": true,
+"type": "number",
+"description": "Price",
+"name": "link",
+"in": "formData"
+},
+{
+"required": true,
+"type": "string",
+"description": "Publish Added",
+"name": "Pub Added",
+"in": "formData"
+},
+{
+"required": true,
+"type": "string",
+"description": "Date Added",
+"name": "Date Added",
+"in": "formData"
+},
+{
+"required": true,
+"type": "string",
+"description": "Date Updated",
+"name": "Date Updated",
+"in": "formData"
+}
+],
+"tags": [
+"News"
+],
+"summary": "Update a News record",
+"consumes": [
+"application/x-www-form-urlencoded",
+"multipart/form-data"
+],
+"operationId": "put_news"
+},
+"delete": {
+"operationId": "delete_news",
+"responses": {
+"200": {
+"description": "Success"
+}
+},
+"tags": [
+"News"
+],
+"summary": "delete news by id"
+},
+"parameters": [
+{
+"required": true,
+"type": "integer",
+"name": "id",
+"in": "path"
+}
+],
+"get": {
+"operationId": "get_news",
+"responses": {
+"200": {
+"description": "Success"
+}
+},
+"tags": [
+"News"
+],
+"summary": "List news by id"
+}
+},
+"/Providers/": {
+"post": {
+"responses": {
+"200": {
+"description": "Success"
+}
+},
+"parameters": [
+{
+"required": true,
+"type": "string",
+"description": "Name",
+"name": "name",
+"in": "formData"
+},
+{
+"required": true,
+"type": "string",
+"description": "Link",
+"name": "link",
+"in": "formData"
+},
+{
+"required": true,
+"type": "string",
+"description": "Date Added",
+"name": "Date Added",
+"in": "formData"
+},
+{
+"required": true,
+"type": "string",
+"description": "Date Updated",
+"name": "Date Updated",
+"in": "formData"
+},
+{
+"required": true,
+"type": "string",
+"description": "Status",
+"name": "Status",
+"in": "formData"
+}
+],
+"tags": [
+"Providers"
+],
+"summary": "Create a Provoder",
+"consumes": [
+"application/x-www-form-urlencoded",
+"multipart/form-data"
+],
+"operationId": "post_provider_list"
+},
+"get": {
+"operationId": "get_provider_list",
+"responses": {
+"200": {
+"description": "Success"
+}
+},
+"tags": [
+"Providers"
+],
+"summary": "List all Providers"
+}
+},
+"/Providers/{id}": {
+"put": {
+"responses": {
+"200": {
+"description": "Success"
+}
+},
+"parameters": [
+{
+"required": true,
+"type": "string",
+"description": "Name",
+"name": "name",
+"in": "formData"
+},
+{
+"required": true,
+"type": "string",
+"description": "Link",
+"name": "link",
+"in": "formData"
+},
+{
+"required": true,
+"type": "string",
+"description": "Date Added",
+"name": "Date Added",
+"in": "formData"
+},
+{
+"required": true,
+"type": "string",
+"description": "Date Updated",
+"name": "Date Updated",
+"in": "formData"
+},
+{
+"required": true,
+"type": "string",
+"description": "Status",
+"name": "Status",
+"in": "formData"
+}
+],
+"tags": [
+"Providers"
+],
+"summary": "Update a Provider record",
+"consumes": [
+"application/x-www-form-urlencoded",
+"multipart/form-data"
+],
+"operationId": "put_provider"
+},
+"delete": {
+"operationId": "delete_provider",
+"responses": {
+"200": {
+"description": "Success"
+}
+},
+"tags": [
+"Providers"
+],
+"summary": "delete provider by id"
+},
+"parameters": [
+{
+"required": true,
+"type": "integer",
+"name": "id",
+"in": "path"
+}
+],
+"get": {
+"operationId": "get_provider",
+"responses": {
+"200": {
+"description": "Success"
+}
+},
+"tags": [
+"Providers"
+],
+"summary": "List Provider by id"
+}
+}
+},
+"responses": {
+"MaskError": {
+"description": "When any error occurs on mask"
+},
+"ParseError": {
+"description": "When a mask can't be parsed"
+}
+},
+"tags": [
+{
+"name": "Providers",
+"description": "News feeds Provider Data"
+},
+{
+"name": "News",
+"description": "News Data"
+}
+],
+"basePath": "/",
+"produces": [
+"application/json"
+],
+"swagger": "2.0",
+"consumes": [
+"application/json"
+]
+}

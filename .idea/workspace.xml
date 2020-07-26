@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8ed3e80b-e022-47a9-aaf0-772172b17800" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/project/controllers/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/project/controllers/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/project/models/Menu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/project/models/Resturant.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/project/static/images/banner-img1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/project/static/images/banner-img2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/project/static/images/banner-img3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/project/static/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/project/static/js/bootstrap-datepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/project/static/js/bootstrap-filestyle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/project/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/project/static/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/project/static/js/jquery-1.11.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/project/static/js/jquery-migrate-1.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/project/static/js/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/project/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/project/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/project/static/js/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/project/templates/about.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/project/templates/index.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restful-api/rest_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/restful-api/rest_api.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="596206358">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Dockerfile" value="2" />
+          <entry key="Procfile" value="1" />
+          <entry key="css" value="1" />
+          <entry key="htm" value="1" />
+          <entry key="html" value="2" />
+          <entry key="jpg" value="30" />
+          <entry key="js" value="2" />
+          <entry key="json" value="2" />
+          <entry key="md" value="1" />
+          <entry key="png" value="57" />
+          <entry key="py" value="8" />
+          <entry key="txt" value="3" />
+          <entry key="yml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="3" />
+          <entry key="Image" value="87" />
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="2" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Python" value="8" />
+          <entry key="YAML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="24" />
+          <entry key="html" value="586" />
+          <entry key="js" value="934" />
+          <entry key="json" value="84" />
+          <entry key="md" value="173" />
+          <entry key="py" value="1363" />
+          <entry key="txt" value="9" />
+          <entry key="yml" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="24" />
+          <entry key="HTML" value="586" />
+          <entry key="JSON" value="84" />
+          <entry key="JavaScript" value="934" />
+          <entry key="Markdown" value="173" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="Python" value="1363" />
+          <entry key="YAML" value="14" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>menu.</find>
+      <find>.css</find>
+      <find>img</find>
+      <find>filename='</find>
+      <find>Conference Schedule</find>
+      <find>Day</find>
+      <find>.section-margin</find>
+      <find>doc</find>
+      <find>get_one</find>
+      <find>no menu found for</find>
+      <find>delete-news-feeds-box</find>
+      <find>delete</find>
+      <find>blogCarousel</find>
+      <find>News Provider</find>
+      <find>providers-details</find>
+      <find>mongo.db.news.remove</find>
+      <find>http://localhost:8100/save_feeds</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/restful-api/requirements.txt" />
+        <option value="$PROJECT_DIR$/app/project/static/css/style_2.css" />
+        <option value="$PROJECT_DIR$/app/project/controllers/DbConnector.py" />
+        <option value="$PROJECT_DIR$/app/project/static/new_js/main.js" />
+        <option value="$PROJECT_DIR$/restful-api/rest_api.py" />
+        <option value="$PROJECT_DIR$/app/project/templates/index.html" />
+        <option value="$PROJECT_DIR$/mongo-seed/init.json" />
+        <option value="$PROJECT_DIR$/mongo-seed/Dockerfile" />
+        <option value="$PROJECT_DIR$/app/project/controllers/test.py" />
+        <option value="$PROJECT_DIR$/app/project/controllers/main.py" />
+        <option value="$PROJECT_DIR$/app/project/static/js/main.js" />
+        <option value="$PROJECT_DIR$/swagger.json" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/app/requirements.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="osama_Data_WebTechniques" type="b2602c69:ProjectViewProjectNode" />
+              <item name="osama_Data_WebTechniques" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="osama_Data_WebTechniques" type="b2602c69:ProjectViewProjectNode" />
+              <item name="osama_Data_WebTechniques" type="462c0819:PsiDirectoryNode" />
+              <item name="mongo-seed" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ed3e80b-e022-47a9-aaf0-772172b17800" name="Default Changelist" comment="" />
+      <created>1560634542015</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560634542015</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/blog/latest-post/l-post-4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/blog/main-blog/m-blog-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/blog/main-blog/m-blog-2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/blog/main-blog/m-blog-3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/blog/main-blog/m-blog-4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/blog/popular-post/post1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/blog/popular-post/post2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/blog/popular-post/post3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/blog/popular-post/post4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/gallery/g1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/gallery/g2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/gallery/g3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/gallery/g5.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/gallery/g4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/gallery/g6.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/home/speaker-1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/home/speaker-2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/home/speaker-3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/home/speaker-bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/home/sponsor1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/home/sponsor2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/home/sponsor3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/home/sponsor-bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/home/sponsor-sm-1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/home/sponsor-sm-2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/home/sponsor-sm-3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/instagram/i1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/instagram/i2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/instagram/i3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/instagram/widget-i1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/instagram/widget-i2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/testimonial/testimonial1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/testimonial/testimonial2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/testimonial/testimonial3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/home/countdown-day.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/home/countdown-hour.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/home/countdown-minute.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/home/feature-icon-bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/home/section-style.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/clients-logo/c-logo-1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/clients-logo/c-logo-2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/clients-logo/c-logo-3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/clients-logo/c-logo-4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/clients-logo/c-logo-5.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/banner/hero-banner.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/banner/hero-vector-overlay.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/Fevicon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/home/gallery-bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/static/new_img/home/feature-icon-active-bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2396">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#0;n#div#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
